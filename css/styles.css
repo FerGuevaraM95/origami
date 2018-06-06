@@ -19,6 +19,126 @@ header, footer, .content {
     display: block;
 }
 
+header {
+    background-color: #ccc;
+}
+
+.navigation {
+    position: relative;
+    display: block;
+    height: 51px;
+    background-color: #00adee;
+}
+
+.navigation__link {
+    position: relative;
+    display: inline-block;
+    margin-top: 8px;
+    padding: 10px;
+    font-size: 12px;
+    text-decoration: none;
+    color: #fff;
+}
+
+.navigation__link:hover {
+    background-color: #fff;
+    color: #404041;
+}
+
+.navigation__logo {
+    width: 196px;
+    height: 51px;
+    margin: 0;
+    margin-right: 30px;
+    padding: 0;
+    vertical-align: top;
+    text-indent: 500px;
+    background-color: #fff;
+    background-image: url(../images/logo.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    overflow: hidden;
+}
+
+.header_img {
+    position: relative;
+    display: block;
+    height: 280px;
+    background-image: url(../images/fondo-portada.jpg);
+}
+
+.header_img > span {
+    position: absolute;
+    display: block;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    padding: 15px 120px;
+    font-size: 42px;
+    background-color: rgba(64,64,65,0.6);
+    color: #fff;
+}
+
+.news {
+    position: absolute;
+    display: block;
+    width: 255px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-color: #fff;
+
+}
+
+.news__new {
+    position: relative;
+    display: block;
+    height: 295px;
+    overflow: auto;
+}
+
+.news__new__link {
+    position: relative;
+    display: block;
+    padding: 10px;
+    text-decoration: none;
+    color: #58595b;
+}
+
+.new__link__title {
+    position: relative;
+    display: block;
+    margin: 0 0 5px;
+    font-size: 18px;
+    color: #00adee;
+}
+
+.new__link__title {
+    margin: 0;
+}
+
+.news__new__link:hover {
+    background-color: #404041;
+}
+
+.news__new__link:hover .new__link__text {
+    color: #fff;
+}
+
+.news__bottom {
+    position: absolute;
+    display: block;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    padding: 10px;
+    font-size: 14px;
+    text-align: center;
+    text-decoration: none;
+    background-color: #00adee;
+    color: #fff;
+}
+
 footer {
     height: 33px;
     background-color: #00adee;
