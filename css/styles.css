@@ -139,6 +139,46 @@ header {
     color: #fff;
 }
 
+.content {
+    overflow: auto;
+}
+
+.column-intro * {
+    padding-left: 40px;
+}
+.column-intro {
+    position: relative;
+    display: block;
+    box-sizing: border-box;
+    float: left;
+    width: 50%;
+    padding: 30px;
+}
+
+.column-intro__principal-title,
+.column-intro__title {
+    position: relative;
+    display: block;
+    margin: 0 0 5px;
+    font-weight: normal;
+}
+
+.column-intro__principal-title {
+    font-size: 36px;
+}
+
+.column-intro__title {
+    font-size: 18px;
+}
+
+.column-intro__text {
+    margin: 0 0 25px;
+}
+
+.bullet-blue {
+    background: url(../images/bullet.jpg) no-repeat left center;
+}
+
 footer {
     height: 33px;
     background-color: #00adee;
